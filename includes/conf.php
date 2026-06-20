@@ -11,7 +11,7 @@ error_reporting(E_ALL);
 */
 $conf = [
     'sitename'  => 'TubeReaver',
-    'gtag'      => 'G-HRY34GZXNY'
+    'gtag'      => ''
 ];
 
 ?>
