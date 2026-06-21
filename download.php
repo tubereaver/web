@@ -48,7 +48,7 @@
                     <div class="col-lg-10">
                         <div class="section-title title-01 mb-50">
                             <h2 class="fs-52">Installation Guide</h2>
-                            <p class="fs-18">Select your preferred installation approach to get TubeReaver running on your system. TubeReaver is optimized for Ubuntu 22.04+. Our installation process includes dependency management, automatic configuration, and verification for a smooth setup.</p>
+                            <p class="fs-18">Select your preferred installation approach to get TubeReaver running on your system. TubeReaver is optimized for Ubuntu 22.04, 23.04, 23.10, 24.04, 24.10 and 26.04. Our installation process includes dependency management, automatic configuration, and verification for a smooth setup.</p>
                         </div>
                         <div class="installation-methods r-16 mb-50">
                             <div class="method-tabs">

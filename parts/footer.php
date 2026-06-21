@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-lg-4 col-md-12">
                 <div class="footer-info">
-                    <img class="footer-logo" src="<?php echo $core['footerlogo']; ?>" alt="TubeReaver">
+                    <img class="footer-logo" src="<?php echo $core['footerlogo']; ?>" alt="<?php echo $conf['sitename']; ?>">
                     <p>TubeReaver is a powerful desktop application for downloading, converting, and tagging YouTube videos, playlists, and audio tracks on Linux.</p>
                 </div>
             </div>
@@ -55,7 +55,7 @@
         <div class="foo-tra-txt">
             <div class="row">
                 <div class="col">
-                    <h2 class="footer-txt">TubeReaver</h2>
+                    <h2 class="footer-txt"><?php echo $conf['sitename']; ?></h2>
                 </div>
             </div>
         </div>
@@ -65,8 +65,8 @@
                 <div class="col">
                     <div class="footer-copyright">
                         <div class="footer-wrapper">
-                            <div class="d-inline fs-14">&copy; 2026 <span>All rights reserved</span>
-                                <a class="text-primary" title="TubeReaver — YouTube Downloader GUI" href="/">TubeReaver</a>
+                            <div class="d-inline fs-14">&copy; <?php echo date('Y'); ?> <span>All rights reserved</span>
+                                <a class="text-primary" title="TubeReaver — YouTube Downloader GUI" href="/"><?php echo $conf['sitename']; ?></a>
                             </div>
                             <div class="d-lg-inline d-none ms-1 me-1">|</div>
                             <div class="d-lg-inline d-md-block fs-14">
