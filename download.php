@@ -62,16 +62,16 @@
                                         <p class="mb-25">Download the latest DEB package and install using dpkg. This method automatically handles dependencies.</p>
                                         <div class="command-block mb-30">
                                             <h5 class="h6 fw-bold">1. Download the TubeReaver package</h5>
-                                            <p class="text-white fs-14 mb-10">Downloads the latest TubeReaver DEB package directly from GitHub releases (v1.4.2)</p>
+                                            <p class="text-white fs-14 mb-10">Downloads the latest TubeReaver DEB package directly from GitHub releases (v1.4.3)</p>
                                             <div class="code-box r-10 overflow-hidden">
-                                                <pre class="language-bash m-0"><code>wget https://github.com/tubereaver/app/releases/download/v1.4.2/tubereaver_1.4.2_all.deb</code></pre>
+                                                <pre class="language-bash m-0"><code>wget https://github.com/tubereaver/app/releases/download/v1.4.3/tubereaver_1.4.3_all.deb</code></pre>
                                             </div>
                                         </div>
                                         <div class="command-block mb-30">
                                             <h5 class="h6 fw-bold">2. Install the DEB package</h5>
                                             <p class="text-white fs-14 mb-10">Uses dpkg package manager with sudo privileges to install TubeReaver system-wide on your Ubuntu system</p>
                                             <div class="code-box r-10 overflow-hidden">
-                                                <pre class="language-bash m-0"><code>sudo dpkg -i tubereaver_1.4.2_all.deb</code></pre>
+                                                <pre class="language-bash m-0"><code>sudo dpkg -i tubereaver_1.4.3_all.deb</code></pre>
                                             </div>
                                         </div>
                                         <div class="command-block mb-30">
